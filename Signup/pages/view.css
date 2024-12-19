@@ -1,0 +1,21 @@
+body{
+    background: url(../img/blur.png) no-repeat center;
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
+}
+.body::before{
+    background-color: rgba(0, 0, 0, 0.3);
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+.container h2{
+    margin-top: 17vh;
+}
+table{
+  margin-top: 10px;
+}
