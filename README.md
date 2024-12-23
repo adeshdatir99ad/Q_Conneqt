@@ -13,6 +13,9 @@ User and Admin View Data Page
 Admin User Creation Page
 ![Screenshot 2024-12-23 224328](https://github.com/user-attachments/assets/a7f54b88-c7c1-487c-afad-942b267db676)
 
+Mobile View Page 
+![Screenshot 2024-12-23 224535](https://github.com/user-attachments/assets/26a2f846-23fa-44c5-8daa-d5eb15e30058)
+
 Database 
 ![Screenshot 2024-12-23 224615](https://github.com/user-attachments/assets/ca5a63b7-4bc6-429b-8615-27947c12b856)
 
