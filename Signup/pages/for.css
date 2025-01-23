@@ -8,11 +8,6 @@
   font-family: Outfit;
   scroll-behavior: smooth;
 }
-/* nav {
-  position: fixed;
-  z-index: 999;
-  width: 100%;
-} */
 
 /* Form */
 html {
@@ -22,12 +17,11 @@ html {
 .border {
   display: flex;
   justify-content: center;
-  height: 430vh;
+  height: 370vh;
   padding: 15vh;
   background: url(../img/bk.jpg) no-repeat center;
   background-size: cover;
   width: 100%;
-  /* background: linear-gradient(135deg, #71b7e6, #9b59b6); */
 }
 .containerfirst {
   background: #fff;

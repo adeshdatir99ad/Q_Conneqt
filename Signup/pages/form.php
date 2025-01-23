@@ -39,7 +39,7 @@ include '../pages/sessionStart.php';
         <div class="user-details">
           <div class="input-box">
             <span class="details">Login Employee Id</span>
-            <input type="id" placeholder="Your Id" name="id" value="<?php echo $row['id']; ?>" />
+            <input type="id" placeholder="Your Id" name="id" value="<?php echo $row['id'];?>" required/>
           </div>
 
           <div class="input-box">
@@ -658,6 +658,7 @@ include '../pages/sessionStart.php';
     } ?>
   </div>
   </div>
+
   <script>
     let btnClick = document.querySelector(".previous");
 

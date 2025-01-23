@@ -31,8 +31,8 @@
 
     if ($data) {
       echo '<div class="body_outer">';
-      echo '<div class="success"> Thank You &nbsp <strong> ' . $ename . ', </strong> &nbsp Your details has been send... </div>' . mysqli_connect_error();
-      echo '<button class="previous" type="button" name="ok">OK</button>';
+      echo '<div class="success"> Thank You &nbsp <strong> Admin </strong> <br>&nbsp User details has been saved... </div>' . mysqli_connect_error();
+      echo '<button class="previous" type="button" name="ok"><strong> OK</button>';
       echo '</body_outer>';
     } else {
       echo 'Failed';

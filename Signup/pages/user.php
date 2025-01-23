@@ -55,13 +55,11 @@ include '../pages/sessionStart.php';
                                      <!-- Php Search Code -->
   <?php
   include '../pages/dbconnect.php';  // db connect
-  //  if(isset($_POST['search_submit'])){
     $search = $_POST['id'];
     
     $sql = "SELECT * FROM user WHERE id = '$search' ";
     $result = mysqli_query($conn,$sql);
     if($result){
-      // if(mysqli_num_rows($result)> 0){
         $row = mysqli_fetch_assoc($result);
         ?>
            <div class="user-details">
@@ -93,10 +91,6 @@ include '../pages/sessionStart.php';
           echo '<h4 style="margin-left: 9px; padding: 10px 0;  color: #f44336;">Data not found</h4>';
         }
       }
-      // }else{
-      //   echo '<h2 style="margin-left: 9px; padding: 10px 0;">Data not found</h2>';
-      // }
-  //   }
    }
     ?>
    
@@ -143,8 +137,7 @@ include '../pages/sessionStart.php';
 
     function hideButton() {
       document.getElementById("save").style.visibility='hidden';
-      // const sidebar = document.querySelector('.layout')
-      // sidebar.style.display = 'none'
+    
     }
     
   </script>

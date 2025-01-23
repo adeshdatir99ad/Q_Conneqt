@@ -12,7 +12,7 @@ body {
 }
 .alertred {
   position: absolute;
-  margin-top: 12.5vh;
+  margin-top: 10.3vh;
   padding: 20px;
   width: 100%;
   background-color: #f44336;
@@ -41,7 +41,6 @@ body {
   height: 100vh;
   background: url(./img/bk.jpg) no-repeat center;
   background-size: cover;
-  /* position: relative; */
 }
 .logincontainer::before {
   background-color: rgba(0, 0, 0, 0.6);
@@ -102,16 +101,7 @@ input {
   margin-left: 15px;
   color: #999;
 }
-/* form p{
-    text-align: right;
-    font-size: 13px;
-} */
-/* form p a{
-    text-decoration: none;
-    color: rgb(24, 114, 199);
-} */
 .btn-field {
-  /* padding: 0 0 10px 0; */
   width: 100%;
   display: flex;
   justify-content: center;
@@ -134,11 +124,6 @@ input {
   background: #48a7e7;
   color: #fff;
 }
-/* .sign-up{
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-} */
 
 @media (max-width: 584px) {
   .form-box {

@@ -59,14 +59,7 @@ session_start();
       </nav>
       <!-- End-Navbar -->
 
-       <!-- Hero Section -->
-        <!-- <section class="hero-section">
-            <div class="container d-flex align-items-center justify-content-center fs-1 text-white flex-column">
-                <h1>Responsive Navbar</h1>
-                <h2>Bootstrap</h2>
-            </div>
-        </section> -->
-        <!-- End Hero Section -->
+      
 
         <!-- Navbar Active Link Line -->
          <script>

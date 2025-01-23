@@ -11,7 +11,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
   $sql = "Select * from user Where id = '$id' AND password = '$password'";
   $result = mysqli_query($conn, $sql);
-  // $num = mysqli_num_rows($result);
   $row = mysqli_fetch_array($result);
 
   // After Login User hide User Section
@@ -27,7 +26,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     session_start();
     $_SESSION["loggedin"] = true;
     $_SESSION["id"] = $id;
-    header("location:./pages/home.php");
+    header("location:./pages/form.php");
 
   }else if($row['type'] == "Admin"){
     $login = true;
@@ -43,7 +42,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 }
 ?>
 
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-/W3C//DTD XHTML 1.0 Transitional/EN">
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -72,7 +71,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
       <div class="form-box">
         <h1 id="title">Login</h1>
         <form action="" method="POST">
-          <div class="inputgroup">
+          <div class="inputgroup">  
             <div class="input-field">
               <i class="fa-solid fa-envelope"></i>
               <input type="text" placeholder="Employee Id" id="eid" name="id" required/>
@@ -90,7 +89,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         </form>
       </div>
     </div>
-    <!-- <script src="script.js"></script> -->
     <script src="https://kit.fontawesome.com/b4e94ed42f.js" crossorigin="anonymous" ></script>
   </body>
 </html>

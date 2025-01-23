@@ -1,12 +1,11 @@
 .success {
-    width: 40%;
+    width: 50%;
     border-radius: 6px;
-    border: 3px solid #fff;
-    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    border: 3px solid transparent;
     color: #fff;
-    margin: 5px 0 5px 10px;
+    margin: 20vh 0 0 40vw;
     padding: 10px;
-    font-size: 18px;
+    font-size: 27px;
     box-shadow: 10px 5px 5px gray;
     display: flex;
     justify-content: center;
@@ -14,25 +13,22 @@
   }
   
   .previous {
+    border-radius: 6px;
+    border: 3px solid transparent;
+    color: #fff;
+    padding: 10px;
+    box-shadow: 10px 5px 5px gray;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    margin: 7px 0 0 11px;
+    margin: 1vh 0 0 85vw;
     width: 5%;
-    padding: 10px 0;
-    background: #71b7e6;
-    color: #fff;
-    border: 0;
-    outline: none;
-    font-size: 16px;
-    border-radius: 5px;
+    background: transparent;
+    font-size: 21px;
     cursor: pointer;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
   }
   .body_outer{
-    background: url(../img/back.jpg);
-    background-position: center;
+    background: url(../img/back.jpg) no-repeat center;
     background-size: cover;
     display: flex;
     flex-direction: column;

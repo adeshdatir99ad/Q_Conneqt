@@ -81,8 +81,8 @@
         }
       }
       echo '<div class="body_outer">';
-      echo '<div class="success"> Thank You &nbsp <strong> ' . $name . ', &nbsp </strong> Your details has been send... </div>' . mysqli_connect_error();
-      echo '<button class="previous" type="button" name="ok">OK</button>';
+      echo '<div class="success"> Thank You &nbsp <strong> ' . $name . ', &nbsp </strong><br> Your details has been send... </div>' . mysqli_connect_error();
+      echo '<button class="previous" type="button" name="ok"><Strong>OK</Strong></button>';
       echo '</body_outer>';
     }
     ?>

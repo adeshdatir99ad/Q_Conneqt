@@ -1,21 +1,70 @@
-body{
-    background: url(../img/blur.png) no-repeat center;
+body {
+  background: url(../img/blur.png) no-repeat center;
   background-size: cover;
   height: 80vh;
   width: 100%;
 }
-.body::before{
-    background-color: rgba(0, 0, 0, 0.3);
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-  }
-.container h2{
-    margin-top: 17vh;
+.body::before {
+  background-color: rgba(0, 0, 0, 0.3);
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
-table{
+.container h2 {
+  margin-top: 17vh;
+}
+.datepicker.dropdown-menu {
+  margin-top: 140px;
+  padding: 25px;
+}
+.table-responsive {
   margin-top: 10px;
+}
+.bdr {
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+/* Add a blur effect to the table */
+.table-blurred {
+  filter: blur(5px);
+  transition: filter 0.3s ease;
+}
+
+/* Optional: Add an overlay effect for the blur to make it more pronounced */
+.blur-overlay {
+  content: '';
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.2);  
+  z-index: 999; /* Ensure it sits above the table */
+}
+
+/* Style for the scrolling bar */
+.table-wrapper {
+  max-height: 370px; 
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scroll-behavior: smooth;
+  scrollbar-color: #4caf50 #f1f1f1; 
+}
+.table-wrapper::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+
+@media (max-width: 767px) {
+  .table-responsive{
+    scrollbar-width:none ;
+    scroll-behavior: smooth;
+  }
+  table {
+    width: 90%; 
+  }
 }

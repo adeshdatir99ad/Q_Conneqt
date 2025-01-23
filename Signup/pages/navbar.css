@@ -11,8 +11,6 @@
 .navbar{
     background-color: #fff;
     height: 80px;
-    /* margin: 20px; */
-    /* border-radius: 16px; */
     padding: 0.5rem;
 }
 .navbar-brand{
@@ -57,7 +55,11 @@
 }
 @media (max-width: 800px) {
     .navbar-brand img{
-        max-width: 70px;
+        max-width: 79px;
+    }
+    .offcanvas-header h5 img{
+        height: 7.5vh;
+        width: 25vw;
     }
 }
 @media (min-width:991px) {
@@ -78,29 +80,3 @@
         visibility: visible;
     }
 }
-
-/* .hero-section{
-    background: url(bk.jpg) no-repeat center;
-    background-size: cover;
-    width: 100%;
-}
-.hero-section::before{
-    background-color: rgba(0, 0, 0, 0.6);
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-}
-.hero-section .container{
-    height: 100vh;
-    z-index: 1;
-    position: relative;
-}
-.hero-section h1{
-    font-size: 1.5rem;
-}
-.hero-section h2{
-    font-size: 1.2rem;
-} */

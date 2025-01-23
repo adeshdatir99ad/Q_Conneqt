@@ -19,11 +19,6 @@
               <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
-              <!-- <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link mx-lg-2 active" aria-current="page" href="home.php">Home</a>
-                </li>
-              </ul> -->
             </div>
           </div>
           <h1 class="title">Business Process Management</h1>
