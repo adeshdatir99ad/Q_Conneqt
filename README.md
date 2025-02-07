@@ -7,7 +7,7 @@ Home Page
 User Fill Info Form Page
 ![Screenshot 2024-12-23 224428](https://github.com/user-attachments/assets/34d77340-9e45-4aaf-bf15-21f1c616ce28)
 
-User and Admin View Data Page 
+Admin View Data Page 
 ![Screenshot 2025-02-07 100832](https://github.com/user-attachments/assets/841372cd-cdb5-4bd7-9144-861db15b7f37)
 
 ![Screenshot 2025-02-07 100858](https://github.com/user-attachments/assets/40d45616-c1ba-464b-9cbe-082ca6db8602)
