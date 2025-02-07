@@ -8,7 +8,13 @@ User Fill Info Form Page
 ![Screenshot 2024-12-23 224428](https://github.com/user-attachments/assets/34d77340-9e45-4aaf-bf15-21f1c616ce28)
 
 User and Admin View Data Page 
-![Screenshot 2024-12-23 224445](https://github.com/user-attachments/assets/55e8ad23-9beb-4381-b997-542e40513542)
+![Screenshot 2025-02-07 100832](https://github.com/user-attachments/assets/841372cd-cdb5-4bd7-9144-861db15b7f37)
+
+![Screenshot 2025-02-07 100858](https://github.com/user-attachments/assets/40d45616-c1ba-464b-9cbe-082ca6db8602)
+
+User View Data
+![Screenshot 2025-02-07 100959](https://github.com/user-attachments/assets/76375d01-8244-4085-8ed1-8deb60866cfa)
+
 
 Admin User Creation Page
 ![Screenshot 2024-12-23 224328](https://github.com/user-attachments/assets/a7f54b88-c7c1-487c-afad-942b267db676)
